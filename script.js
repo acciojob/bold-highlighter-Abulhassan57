@@ -1,12 +1,7 @@
-function highlight() {
-    //Write your code here
+const boldWords=document.querySelectorAll("strong")
 
-
-}
-
-
-function return_normal() {
-    //Write your code here
-
-    
+function highlight(){
+	boldWords.forEach((word)=>{
+		word.style.color="green"
+	})
 }
