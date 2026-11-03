@@ -1,7 +1,12 @@
-const boldWords=document.querySelectorAll("strong")
 
 function highlight(){
+const boldWords=document.querySelectorAll("strong")
 	boldWords.forEach((word)=>{
-		word.style.color="green"
+		word.style.color="rgb(0,128,0)";
 	})
 }
+function return_normal() {
+    let boldWords = document.querySelectorAll("strong");
+    boldWords.forEach(function(word) {
+        word.style.color = "rgb(0, 0, 0)";
+    });
